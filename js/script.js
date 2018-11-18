@@ -7,7 +7,8 @@ var pos = 0;
 var transform = Modernizr.prefixed('transform');
 
 function setTransform() {
-	items.style[transform] = 'translate3d(' + (-pos * items.offsetWidth) + 'px,0,0)';
+	// items.style[transform] = 'translate3d(' + (-pos * items.offsetWidth) + 'px,0,0)';
+	items.style[transform] = 'translate3d(' + ((-pos * items.offsetWidth) - 4) + 'px,0,0)';
 }
 
 function prev() {
@@ -19,3 +20,5 @@ function next() {
 	setTransform();
 }
 window.addEventListener('resize', setTransform);﻿
+
+

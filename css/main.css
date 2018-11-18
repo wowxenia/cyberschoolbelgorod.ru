@@ -47,7 +47,7 @@ body {
 .wrap {
 	display: flex;
 	align-items: stretch;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	flex-direction: column;
 }	
@@ -71,6 +71,8 @@ button:hover {
 .slider	{
 	display: flex;
 	flex-direction: row;
+	height: 500px;
+
 }
 
 .scroller {
@@ -93,7 +95,20 @@ button:hover {
 	height: 500px;
 	background-size: cover;
 	background-position: 100% 100%;
+	position: relative;
 }
+
+.btn-left {
+	position: absolute;
+	top: 50%;
+}
+
+.btn-right {
+	position: absolute;
+	left: 80%;
+	top: 50%;
+}
+
 
 /*END SLIDER*/
 
