@@ -1,7 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	
+	box-sizing: border-box;
 }
 
 .container {
@@ -41,12 +41,72 @@ body {
 	align-items: center;
 }
 
+
+
+
+
 .main-img {
 	width: 400px;
 	height: 250px;
-	background: #fff;
+	background: #fefff3;
 	border-radius: 15px;
 }
+
+
+/*SLIDER*/
+
+.wrap {
+	display: flex;
+	align-items: stretch;
+	width: 90%;
+	margin: auto;
+	flex-direction: column;
+}	
+
+button {
+	width: 30px;
+	border: none;
+	background: transparent;
+	color: #ccc;
+	font-size: 40px;
+	text-align: center;
+	outline:none;
+	opacity: 0.5;
+	transition: opacity 300ms ease-out;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+.slider	{
+	display: flex;
+	flex-direction: row;
+}
+
+.scroller {
+	flex: 1;
+	overflow: hidden;
+}
+
+.items {
+	list-style-type: none; 
+	white-space: nowrap;
+	transition: transform 1s ease-in-out;
+	padding: 0;
+}
+
+.item {
+	padding: 30px 20px;
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+/*END SLIDER*/
+
 
 .text-section {
 	width: 600px;
@@ -55,6 +115,7 @@ body {
 
 .main-block {
 	margin: auto;
+	padding: 20px;
 	background: #A69F85;
 	display: flex;
 	justify-content: space-around;
@@ -62,33 +123,58 @@ body {
 }
 
 .block-about {
-	margin: 20px;
-	width: 550px;
-	height: 250px;
-	background: #fff;
+	margin: 40px;
+	width: 500px;
+	height: 220px;
+	background: #fefff3;
 	align-self: center;
 	border-radius: 15px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	box-shadow: 0 0 15px 2px #6d6855;
 }
 
 .block-img	{
+	display: flex;
 	margin: 0 20px;
 	width: 120px;
 	height: 120px;
 	background: #595955;
-	border-radius: 50%;
+	border-radius: 50%;	
+}
+
+.block-img.bot {
+ background: url(../img/main-block/001-bot.png) no-repeat #595955 center;
+}
+
+.block-img.hours {
+	 background: url(../img/main-block/002-24-hours.png) no-repeat #595955 center;
+}
+
+.block-img.growth {
+	 background: url(../img/main-block/003-growth.png) no-repeat #595955 center;
+}
+
+.block-img.edit {
+	 background: url(../img/main-block/004-edit.png) no-repeat #595955 center;
 }
 
 .block-text {
 	margin: 0 20px;
 	width: 225px;
 	flex-grow: 1;
-
-
 }
 
+.block-text h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.block-text p {
+	font-family: 'Roboto', sans-serif;
+}
 
 /*END MAIN*/
 
@@ -130,9 +216,9 @@ body {
 	margin: auto;
 	width: 250px;
 	height: 250px;
-	background: #fff;
+	background: #fefff3;
 	border-radius: 50%;
-	position: 
+
 }
 
 /*END ABOUT*/
