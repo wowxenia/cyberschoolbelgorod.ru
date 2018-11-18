@@ -100,13 +100,13 @@ button:hover {
 
 .btn-left {
 	position: absolute;
-	top: 50%;
+	top: 35%;
 }
 
 .btn-right {
 	position: absolute;
 	left: 80%;
-	top: 50%;
+	top: 35%;
 }
 
 
