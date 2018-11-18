@@ -138,16 +138,35 @@ body {
 /*END ABOUT*/
 
 .price-block {
-	height: 400px;
+	height: 600px;
 	background: #FFEABA;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
 
 }
 .price {
-
+	height: 400px;
+	width: 250px;
+	background: #fff;
+	border-radius: 10px;
 }
+
+.price:nth-child(2n) {
+	align-self: flex-start; 
+	margin-top: 50px;
+
+}	
 
 /*END PRICE	*/
 
+.register {
+	min-height: 400px;
+	background-color: #848A5E;
+}
+
+/*END REGISTER*/
 
 .footer {
 	background-color: #000219;
