@@ -34,22 +34,11 @@ body {
 
 
 .main-section {
-	height: 500px;
+	min-height: 500px;
 	background-color: #E1B35F;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-}
-
-
-
-
-
-.main-img {
-	width: 400px;
-	height: 250px;
-	background: #fefff3;
-	border-radius: 15px;
 }
 
 
@@ -70,7 +59,7 @@ button {
 	color: #ccc;
 	font-size: 40px;
 	text-align: center;
-	outline:none;
+	outline: none;
 	opacity: 0.5;
 	transition: opacity 300ms ease-out;
 }
@@ -94,15 +83,16 @@ button:hover {
 	white-space: nowrap;
 	transition: transform 1s ease-in-out;
 	padding: 0;
+	margin: 0;
 }
 
 .item {
-	padding: 30px 20px;
+	/*padding: 30px 20px;*/
 	display: inline-block;
 	width: 100%;
-	height: 150px;
+	height: 500px;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 100% 100%;
 }
 
 /*END SLIDER*/
