@@ -303,23 +303,25 @@ button:hover {
 	background-color: #595955;
 	min-height: 500px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-around;	
+	align-items: center;
 
 }
 
-.school-member {
+.school-member {	
 	display: flex;
-	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
-	justify-content: space-around;	
+	
 }
 
 .member-first,
 .member-second {
-	margin: auto;
-	width: 500px;
-	flex-direction: column;	
-	align-self: center;
+	/*display: flex;	*/
+	/*justify-content: space-around;*/
+	width: 350px;
+	border-radius: 20px;
+	background: #fefff3;
 
 }
 
@@ -339,7 +341,19 @@ button:hover {
 	height: 250px;
 	background: #fefff3;
 	border-radius: 50%;
+}
 
+.member-first .img-name {
+	background: url(../img/teachers/Andrey.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.member-second .img-name {
+	background: url(../img/teachers/Sara.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	transform: scale(-1, 1);
 }
 
 /*END ABOUT*/
@@ -412,6 +426,7 @@ button:hover {
 	background-color: #fefff3;
 	padding: 15px 10px;
 	border-radius: 15px;
+	margin: 1.5rem auto;
 }
 
 .price-tag h4 sub {
@@ -439,8 +454,8 @@ button:hover {
 .price-btn {
 	padding: 1rem 2rem;
 	border-radius: 100px;
-	background-color: #fff;
-	border: 1px solid #fff;
+	background-color: #fefff3;
+	border: 1px solid #fefff3;
 	color: ;
 	text-transform: uppercase;
 	font-size: 1rem;
