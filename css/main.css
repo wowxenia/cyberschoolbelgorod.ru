@@ -32,87 +32,95 @@ body {
 	}*/
 
 
+nav {
+	position: relative;
+	width: 590px;
+	height: 50px;
+	/*background-color: #50504d;*/
+	border-radius: 8px;
+	font-size: 0;
+}
 
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
 
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
 
-	nav {
-		position: relative;
-		width: 590px;
-		height: 50px;
-		/*background-color: #50504d;*/
-		border-radius: 8px;
-		font-size: 0;
-	}
-	nav a {
-		line-height: 50px;
-		height: 100%;
-		font-size: 15px;
-		display: inline-block;
-		position: relative;
-		z-index: 1;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-		color: white;
-		cursor: pointer;
-	}
-	nav .animation {
-		position: absolute;
-		height: 100%;
-		top: 0;
-		z-index: 0;
-		transition: all .5s ease 0s;
-		border-radius: 8px;
-	}
-	a:nth-child(1) {
-		width: 100px;
-	}
-	a:nth-child(2) {
-		width: 110px;
-	}
-	a:nth-child(3) {
-		width: 100px;
-	}
-	a:nth-child(4) {
-		width: 160px;
-	}
-	a:nth-child(5) {
-		width: 120px;
-	}
-	nav .start-home, a:nth-child(1):hover~.animation {
-		width: 100px;
-		left: 0;
-		background-color: #A69F85;
-	}
-	nav .start-about, a:nth-child(2):hover~.animation {
-		width: 110px;
-		left: 100px;
-		background-color: #e74c3c;
-	}
-	nav .start-blog, a:nth-child(3):hover~.animation {
-		width: 100px;
-		left: 210px;
-		background-color: #3498db;
-	}
-	nav .start-portefolio, a:nth-child(4):hover~.animation {
-		width: 160px;
-		left: 310px;
-		background-color: #9b59b6;
-	}
+.header-item a:nth-child(1) {
+	width: 100px;
+}
+
+.header-item a:nth-child(2) {
+	width: 110px;
+}
+
+.header-item a:nth-child(3) {
+	width: 100px;
+}
+
+.header-item a:nth-child(4) {
+	width: 160px;
+}
+
+.header-item a:nth-child(5) {
+	width: 120px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #A69F85;
+}
+
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+
 	nav .start-contact, a:nth-child(5):hover~.animation {
-		width: 120px;
-		left: 470px;
-		background-color: #e67e22;
-	}
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
 
 
 
 
-	/*END HEADER*/
+/*END HEADER*/
 
-
-	.main-section {
-		min-height: 500px;
+.main-section {
+	min-height: 500px;
 	/*background-color: #E1B35F;
 	display: flex;
 	justify-content: space-around;
@@ -143,14 +151,13 @@ body {
 }
 
 button:hover {
-	opacity: 1;
+opacity: 1;
 }*/
 
 .slider	{
 	display: flex;
 	flex-direction: row;
 	height: 500px;
-
 }
 
 .scroller {
@@ -173,14 +180,14 @@ button:hover {
 	/*background-size: cover;*/
 	/*background-position: 100% 100%;*/
 	/*position: relative;*/
-	
+
 }
 
 .item img {
 	/*display: inline-block;*/
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: center;
+	background-position: 100% 100%;
 	padding: 0;
 	margin: 0;
 	width: 101%;
@@ -217,8 +224,6 @@ button:hover {
 }
 
 
-
-
 /*END SLIDER*/
 
 
@@ -226,10 +231,24 @@ button:hover {
 	width: 600px;
 }
 
+.wrap-main {		
+	margin: auto;
+	padding: 20px;
+	background: #A69F85;
+}
+
+.main-header {
+	display: flex;
+	justify-content: center;
+}
+
+.main-header h2 {
+	font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
 
 .main-block {
 	margin: auto;
-	padding: 20px;
 	background: #A69F85;
 	display: flex;
 	justify-content: space-around;
@@ -298,11 +317,27 @@ button:hover {
 	font-family: 'Roboto', sans-serif;
 }
 
+
 /*END MAIN*/
 
-.about {
+
+.wrap-about {
 	background-color: #595955;
 	min-height: 500px;
+	padding: 20px;
+}
+
+.header-about {
+	display: flex;
+	justify-content: center;
+}
+
+.header-about h2 {
+	font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.about {	
 	display: flex;
 	justify-content: center;	
 	align-items: center;
@@ -311,7 +346,7 @@ button:hover {
 
 .school-member {	
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-around;	
 	align-items: center;	
 }
 
@@ -339,6 +374,8 @@ button:hover {
 .member-first p,
 .member-second p {
 	text-align: center;
+	font-size: 14px;
+	padding: 0 20px;
 }
 
 .img-name {
@@ -391,7 +428,7 @@ button:hover {
 }
 
 .price-tags {
-		
+
 	display: flex;
 	justify-content: space-around;
 	-ms-align-items: center;
@@ -502,15 +539,70 @@ button:hover {
 .contact-us {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
-.social-items {
-
+.social-items-vk,
+.social-items-vkfs,
+.social-items-in,
+.social-items-infs,
+.social-items-you {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
-	border: 3px solid #63676e;
-	/*box-shadow: 0 0 0 2px #f5eee3;*/
-	margin: 0 5px 20px;
+	border: 2px solid #63676e;
+	margin: 0 10px 20px;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-items-vk:hover,
+.social-items-vkfs:hover,
+.social-items-in:hover,
+.social-items-infs:hover,
+.social-items-you:hover {
+	border: 2px solid #D9D8D7;
+	box-shadow: 0px 0px 60px 10px rgba(217,216,215,0.5);
+}
+
+.social-items-vk {
+	background: url(../img/social/vk.svg) no-repeat center;
+	-webkit-background-size: 24px;
+	background-size: 24px;: 
+}
+
+.social-items-vk:hover {
+	background: url(../img/social/vk-1.svg) no-repeat center;
+	-webkit-background-size: ;
+	background-size: 24px;
+	transition: all 0.3s; 
+}
+
+.social-items-in {
+	background: url(../img/social/instagram.svg) no-repeat center;
+	-webkit-background-size: 24px;
+	background-size: 24px;: 
+}
+
+.social-items-in:hover {
+	background: url(../img/social/instagram-1.svg) no-repeat center;
+	-webkit-background-size: ;
+	background-size: 24px ;
+	transition: all 0.3s; 
+}
+
+.social-items-you {
+	background: url(../img/social/youtube.svg) no-repeat center;
+	-webkit-background-size: 24px;
+	background-size: 24px;: 
+}
+
+.social-items-you:hover {
+	background: url(../img/social/youtube-1.svg) no-repeat center;
+	-webkit-background-size: ;
+	background-size: 24px;
+	transition: all 0.3s;
 }
