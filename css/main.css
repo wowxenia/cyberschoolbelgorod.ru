@@ -460,7 +460,7 @@ opacity: 1;
 .main-header {
 	display: flex;
 	justify-content: center;
-	   background-color: #ff0000;
+	margin: 15px 0;
 }
 
 .main-header h2 {
@@ -468,7 +468,7 @@ opacity: 1;
 	text-shadow: 1px 0 0 red;
 	font-size: 18px;
 	font-weight: 400;
-	color: #00f6f9;
+	color: #fff;
 }
 
 .main-block {
@@ -502,14 +502,21 @@ opacity: 1;
 .block-img	{
 	display: flex;
 	margin: 0 20px;
-	width: 120px;
-	height: 120px;
-	border: 3px solid #f16f6f;;
-	border-radius: 50%;	
+	width: 100px;
+	height: 100px;
+	border: 1px solid #67f3da;
+	/*border-radius: 50%;	*/
 }
 
 .block-img.bot {
-	background: url(../img/main-block/001-bot.png) no-repeat center;
+	background: url(../img/main-block/support.svg);
+	-webkit-background-size: 100px;
+	background-size: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*box-shadow: 1px 0 0 red;*/
+	-webkit-filter: drop-shadow( 1px 1px 0 red ); 
+            filter: drop-shadow( 1px 1px 0 red );
 }
 
 .block-img.hours {
@@ -532,13 +539,14 @@ opacity: 1;
 }
 
 .block-text h2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Play', sans-serif;
 	font-size: 20px;
-	font-weight: 600;
+	color: #fff; 
 }
 
 .block-text p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Play', sans-serif;
+	color: #00ffff;
 }
 
 
