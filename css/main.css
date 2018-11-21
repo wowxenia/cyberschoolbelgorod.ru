@@ -22,9 +22,8 @@ body {
 
 .header-logo {
 	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
-	margin-left: 3rem;
+	margin-left: 1rem;
 }
 
 .header-item-bgd {
@@ -37,7 +36,8 @@ body {
 	color: #fff;
 	text-align: center;
 	margin: 0.5rem;
-	font-size: 18px;
+	font-size: 27px;
+	letter-spacing: 2px;
 	margin: 0;
 	line-height: 0;
 	animation: glitch1 2.5s infinite;
@@ -225,10 +225,10 @@ body {
 .header-item-cyber p {
 	font-family: 'Press Start 2P', cursive;
 	color: #00ffff;
-	text-align: center;
 	font-size: 10px;
-	margin: 1px auto;
+	margin: 0 auto;
 	line-height: 1.60;
+	letter-spacing: 2px;
 	
 }
 
@@ -240,7 +240,7 @@ body {
 	padding: 10px 15px;
 	border-radius: 15px;
 	text-transform: uppercase;
-	}*/
+}*/
 
 
 	nav {
@@ -304,25 +304,25 @@ body {
 	nav .start-home, a:nth-child(1):hover~.animation {
 		width: 100px;
 		left: 0;
-		border: 2px solid #00ffff;
+		border: 2px solid red;
 	}
 
 	nav .start-about, a:nth-child(2):hover~.animation {
 		width: 110px;
 		left: 100px;
-		border: 2px solid #00ffff;
+		border: 2px solid red;
 	}
 
 	nav .start-blog, a:nth-child(3):hover~.animation {
 		width: 100px;
 		left: 210px;
-		border: 2px solid #00ffff;
+		border: 2px solid red;
 	}
 
 	nav .start-portefolio, a:nth-child(4):hover~.animation {
 		width: 150px;
 		left: 310px;
-		border: 2px solid #00ffff;
+		border: 2px solid red;
 	}
 
 	nav .start-contact, a:nth-child(5):hover~.animation {
@@ -451,7 +451,7 @@ opacity: 1;
 .wrap-main {		
 	margin: auto;
 	padding: 20px;
-	background: #A69F85;
+	background: #000;
 }
 
 .main-header {
@@ -460,68 +460,71 @@ opacity: 1;
 }
 
 .main-header h2 {
-	font-family: Roboto, sans-serif;
-	font-weight: 500;
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 1px 0 0 red;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
 }
 
 .main-block {
 	margin: auto;
-	background: #A69F85;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .block-about {
-	margin: 40px;
+	margin: 30px;
 	width: 500px;
 	height: 220px;
-	background: #fefff3;
+	/*background: #fefff3;*/
+	border: 1px solid #67f3da;
 	align-self: center;
-	border-radius: 15px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	box-shadow: 0 0 15px 2px #6d6855;
+	box-shadow: 5px 5px red;
 	transition: 1s ease-in-out;
 }
-
+/*
 .block-about:hover {
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(.9);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(0.9);
 	transition: .5s;
-}
+}*/
 
 .block-img	{
 	display: flex;
 	margin: 0 20px;
 	width: 120px;
 	height: 120px;
-	background: #595955;
+	border: 3px solid #f16f6f;;
 	border-radius: 50%;	
 }
 
 .block-img.bot {
-	background: url(../img/main-block/001-bot.png) no-repeat #595955 center;
+	background: url(../img/main-block/001-bot.png) no-repeat center;
 }
 
 .block-img.hours {
-	background: url(../img/main-block/002-24-hours.png) no-repeat #595955 center;
+	background: url(../img/main-block/002-24-hours.png) no-repeat center;
 }
 
 .block-img.growth {
-	background: url(../img/main-block/003-growth.png) no-repeat #595955 center;
+	background: url(../img/main-block/003-growth.png) no-repeat center;
 }
 
 .block-img.edit {
-	background: url(../img/main-block/004-edit.png) no-repeat #595955 center;
+	background: url(../img/main-block/004-edit.png) no-repeat center;
 }
 
 .block-text {
 	margin: 0 20px;
 	width: 225px;
 	flex-grow: 1;
+	color: #fff;
 }
 
 .block-text h2 {
@@ -539,7 +542,7 @@ opacity: 1;
 
 
 .wrap-about {
-	background-color: #595955;
+	background-color: #333;
 	min-height: 500px;
 	padding: 20px;
 }
@@ -550,8 +553,11 @@ opacity: 1;
 }
 
 .header-about h2 {
-	font-family: Roboto, sans-serif;
-	font-weight: 500;
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 1px 0 0 red;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
 }
 
 .about {	
@@ -562,8 +568,7 @@ opacity: 1;
 }
 
 .school-member {	
-	display: flex;
-	justify-content: space-around;	
+	display: flex;	
 	align-items: center;	
 }
 
@@ -571,9 +576,9 @@ opacity: 1;
 .member-second {
 	margin: 10px 50px;
 	width: 350px;
-	border-radius: 20px;
-	background: #fefff3;
-	min-height: 700px;
+	border: 3px solid #67f3da;
+	/*background: #fefff3;*/
+	height: 550px;
 }
 
 .member-first h2,
@@ -584,7 +589,7 @@ opacity: 1;
 .member-first h4,
 .member-second h4 {
 	text-align: center;
-	background: #FFEABA;
+	background: #fff;
 	padding: 5px 0;
 }
 
@@ -607,7 +612,6 @@ opacity: 1;
 	background: url(../img/teachers/Andrey.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
-	display: flex;
 }
 
 .member-second .img-name {
@@ -769,7 +773,7 @@ opacity: 1;
 	align-items: center;	
 	height: 35px;
 	width: 35px;
-	border-radius: 50%;
+	
 	border: 2px solid #63676e;
 	margin: 0 10px 20px;
 	cursor: pointer;
@@ -781,7 +785,7 @@ opacity: 1;
 .social-items-in:hover,
 .social-items-infs:hover,
 .social-items-you:hover {
-	border: 2px solid #D9D8D7;
+	border: 2px solid #67f3da;
 	box-shadow: 0px 0px 60px 10px rgba(217,216,215,0.5);
 }
 
