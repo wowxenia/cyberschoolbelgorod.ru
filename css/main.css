@@ -107,10 +107,10 @@
   background: #121010;
   /*width: 800px;*/
   /*height: 600px;*/
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   position: relative;
   overflow: hidden;
-  border: 2px solid #666;
+  /*border: 2px solid #666;*/
 }
 .body-wrap::after {
   content: " ";
