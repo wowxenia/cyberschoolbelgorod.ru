@@ -466,7 +466,6 @@ opacity: 1;
 
 .main-header h2 {
 	font-family: 'Press Start 2P', cursive;
-	text-shadow: 1px 0 0 red;
 	font-size: 18px;
 	font-weight: 400;
 	color: #fff;
@@ -507,8 +506,6 @@ opacity: 1;
 	background: url(../img/main-block/support.svg) no-repeat center;
 	-webkit-background-size: 100px;
 	background-size: 50px;
-	
-
 }
 
 .block-img.hours {
@@ -641,22 +638,27 @@ opacity: 1;
 /*END ABOUT*/
 
 
-.price-table {
-	background: #FFEABA;
-	height: 800px;
+.wrap-price {
+	background: #000;
+	height: 750px;
+	padding: 20px;
 }
 
 .price {
 	display: flex;
-	justify-content: center;
-	padding: 0;
-	flex-direction: column;
-	align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    background-color: red;
+
 }
 
 .price h2 {
-	font-family: Roboto, sans-serif;
-	font-weight: 500;
+	font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    letter-spacing: ;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 0 0 #000;
 }
 
 .price p{
@@ -666,32 +668,25 @@ opacity: 1;
 }
 
 .price-tags {
-
 	display: flex;
 	justify-content: space-around;
 	-ms-align-items: center;
 	align-items: center;
-	margin: 0 30px;
+	margin: 40px 30px;
 }
 
-.price-tag {
-	background-color: #A69F85;
-	border-radius: 2rem;
+.price-tag {	
+	border: 1px solid #67f3da;
+	box-shadow: 5px 5px red;
 	padding: 1rem;
 	width: 270px;
-	/*height: 400px;*/
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	transition: 0.3s ease-in-out;
-	/*border: 1px solid red;*/
-}
-
-.price-tag:hover {
-	box-shadow: 0 0 30px 3px #A69F85;
-	transition: 0.3s;
+	
 }
 
 .price-tag span {
@@ -704,10 +699,9 @@ opacity: 1;
 	font-family: Roboto, sans-serif;
 	font-size: 2rem;
 	font-weight: 500;
-	color: ;
-	background-color: #fefff3;
+	color: #fff;
+	border: 1px solid #67f3da;
 	padding: 15px 10px;
-	border-radius: 15px;
 	margin: 1.5rem auto;
 }
 
@@ -724,38 +718,41 @@ opacity: 1;
 .price-tag p {
 	font-family: Roboto, sans-serif;
 	font-size: 17px;
+	color: #fff;
 }
 
 .price-tag img {
 	padding: .8rem;
 	margin: 0.5rem;
-	background: #fefff3;
-	border-radius: 100px;
+	border: 1px solid red;
+	
 }
 
 .price-btn {
 	padding: 1rem 2rem;
-	border-radius: 100px;
-	background-color: #fefff3;
-	border: 1px solid #fefff3;
-	color: ;
+	border: 1px solid #67f3da;
+	background-color: #000;
+	color: #fff;
 	text-transform: uppercase;
 	font-size: 1rem;
 	font-weight: 300;
 	font-family: Roboto, sans-serif;
 }
+
 .price-btn:hover {
-	background-color: #7b7b7b;
-	color: #fff;
+	/*background-color: #7b7b7b;*/
+	/*color: #fff;*/
 	cursor: pointer;
-	border: 1px solid #7b7b7b;
+	border: 1px solid red;
 }
 
 /*END PRICE	*/
 
+
+
 .register {
 	min-height: 400px;
-	background-color: #848A5E;
+	background-color: red;
 }
 
 /*END REGISTER*/
