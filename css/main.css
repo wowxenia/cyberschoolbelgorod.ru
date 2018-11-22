@@ -840,7 +840,9 @@ opacity: 1;
 .member-third {
 	margin: 30px 30px;
 	width: 310px;
-	height: 550px;
+	height: 446px;
+	border: 1px solid #000;
+
 }
 
 .member-first h2,
@@ -880,7 +882,7 @@ opacity: 1;
 	padding: 0 20px;
 	font-family: Play, sans-serif;
 	/*text-shadow: .2px 0 0 #fff;*/
-
+	
 }
 
 .img-name {
