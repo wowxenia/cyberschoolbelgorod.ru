@@ -635,10 +635,17 @@ opacity: 1;
 	display: inline-block;
 	width: 105%;
 	height: 700px;
+	
+
 	/*background-size: cover;*/
 	/*background-position: 100% 100%;*/
 	/*position: relative;*/
 
+}
+
+.item video {
+	position: relative;
+	left: -50px;
 }
 
 .item img {
@@ -650,6 +657,8 @@ opacity: 1;
 	margin: 0;
 	width: 100%;
 	border: 0;
+	position: relative;
+
 }
 
 .btn-left {
@@ -765,7 +774,7 @@ opacity: 1;
 }
 
 .block-text {
-	margin: 0 20px;
+	margin: 0 35px;
 	width: 225px;
 	flex-grow: 1;
 	color: #fff;
