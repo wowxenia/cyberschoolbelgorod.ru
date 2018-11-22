@@ -972,11 +972,12 @@ opacity: 1;
 }
 
 .price-tag h4 {
-	font-family: Roboto, sans-serif;
+	font-family: Play, sans-serif;
 	font-size: 2rem;
 	font-weight: 500;
-	color: #fff;
+	color: #67f3da;
 	border: 1px solid #67f3da;
+	box-shadow: 5px 5px red;
 	padding: 15px 10px;
 	margin: 1.5rem auto;
 }
@@ -992,15 +993,17 @@ opacity: 1;
 }
 
 .price-tag p {
-	font-family: Roboto, sans-serif;
+	font-family: Play, sans-serif;
 	font-size: 17px;
-	color: #fff;
+	color: #00ffff;
+	text-align: justify;
 }
 
 .price-tag img {
 	padding: .8rem;
 	margin: 0.5rem;
-	border: 1px solid red;
+	border: 1px solid #00ffff;
+	box-shadow: 5px 5px red;
 	
 }
 
@@ -1012,7 +1015,7 @@ opacity: 1;
 	text-transform: uppercase;
 	font-size: 1rem;
 	font-weight: 300;
-	font-family: Roboto, sans-serif;
+	font-family: Play, sans-serif;
 }
 
 .price-btn:hover {
