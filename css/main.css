@@ -750,27 +750,27 @@ opacity: 1;
 }
 
 .block-img.bot {
-	background: url(../img/main-block/support.svg) no-repeat center;
+	background: url(../img/main-block/thumb-up-hand-outline-interface-symbol.svg) no-repeat center;
 	-webkit-background-size: 100px;
-	background-size: 50px;
+	background-size: 40px;
 }
 
 .block-img.hours {
-	background: url(../img/main-block/24-hours.svg) no-repeat center;
+	background: url(../img/main-block/presentation.svg) no-repeat center;
 	-webkit-background-size: 100px;
-	background-size: 50px;
+	background-size: 40px;
 }
 
 .block-img.growth {
-	background: url(../img/main-block/growth.svg) no-repeat center;
+	background: url(../img/main-block/armchair.svg) no-repeat center;
 	-webkit-background-size: 100px;
-	background-size: 50px;
+	background-size: 40px;
 }
 
 .block-img.edit {
-	background: url(../img/main-block/edit.svg) no-repeat center;
+	background: url(../img/main-block/mortarboard.svg) no-repeat center;
 	-webkit-background-size: 100px;
-	background-size: 50px;
+	background-size: 55px;
 }
 
 .block-text {
@@ -803,14 +803,15 @@ opacity: 1;
 
 
 .wrap-about {
-	background-color: #333;
-	min-height: 500px;
+	background-color: red;
+	height: 720px;
 	padding: 20px;
 }
 
 .header-about {
 	display: flex;
 	justify-content: center;
+	background-color: #000
 }
 
 .header-about h2 {
@@ -819,6 +820,7 @@ opacity: 1;
 	font-size: 18px;
 	font-weight: 400;
 	color: #fff;
+	background-color: #000;
 }
 
 .about {	
@@ -834,54 +836,79 @@ opacity: 1;
 }
 
 .member-first,
-.member-second {
-	margin: 10px 50px;
-	width: 350px;
-	border: 3px solid #67f3da;
-	/*background: #fefff3;*/
+.member-second,
+.member-third {
+	margin: 30px 30px;
+	width: 310px;
 	height: 550px;
 }
 
 .member-first h2,
-.member-second h2 {
+.member-second h2,
+.member-third h2 {
 	text-align: center;
+	font-family: 'Play', sans-serif;
+	color: #fff;
+	text-shadow: 1px 0 0 #000;
+	margin: 0;
+	padding: 20px 0; 
+	background: url(../img/0055ad64-1.png) repeat;
+	opacity: .85
+
+
+
 }
 
-.member-first h4,
-.member-second h4 {
+.member-first h4, 
+.member-second h4,
+.member-third h4 {
 	text-align: center;
 	background: #fff;
 	padding: 5px 0;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+	text-shadow: .5px 0 0 red;
+	margin: 0;
+
 }
 
 .member-first p,
-.member-second p {
-	text-align: center;
+.member-second p,
+.member-third p {
+	text-align: justify;
 	font-size: 14px;
 	padding: 0 20px;
+	font-family: Play, sans-serif;
+	/*text-shadow: .2px 0 0 #fff;*/
+
 }
 
 .img-name {
-	margin: 10px auto;
-	width: 250px;
-	height: 250px;
+	height: 350px;
 	background: #fefff3;
-	border-radius: 50%;
 }
 
 .member-first .img-name {
 	background: url(../img/teachers/Andrey.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
+	opacity: .85;
 }
 
 .member-second .img-name {
+	background: url(../img/teachers/2lvl.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	opacity: .85;
+}
+
+.member-third .img-name {
 	background: url(../img/teachers/Sara.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	transform: scale(-1, 1);
+	opacity: .85;
 }
-
 /*END ABOUT*/
 
 
