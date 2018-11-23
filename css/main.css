@@ -858,6 +858,21 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	color: #fff;
 	background-color: #000;
 	padding: 15px 25px;
+	-webkit-animation: filter-animation-d .1s infinite;
+}
+
+@-webkit-keyframes filter-animation-d {
+  0% {
+    -webkit-filter: opacity(.9);
+  }
+  
+  50% {
+    -webkit-filter: opacity(1);
+  }
+  
+  100% {
+    -webkit-filter: opacity(.9);
+  }
 }
 
 .about {	
@@ -999,6 +1014,21 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     text-shadow: 1px 0 0 #000;
     padding: 15px 25px;
     background-color: red;
+    -webkit-animation: filter-animation-s .1s infinite;
+}
+
+@-webkit-keyframes filter-animation-s {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    -webkit-filter: hue-rotate(15deg);
+  }
+  
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
 }
 
 .price p{
@@ -1151,6 +1181,21 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	text-shadow: 1px 0 0 #000;
 	background-color: red;
 	padding: 15px 25px;
+	-webkit-animation: filter-animation-s .1s infinite;
+}
+
+@-webkit-keyframes filter-animation-s {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    -webkit-filter: hue-rotate(15deg);
+  }
+  
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
 }
 
 .contact-us {
