@@ -234,9 +234,6 @@
 }
 
 
-
-
-
 body {
 	padding: 0;
 	margin: 0;
@@ -265,7 +262,10 @@ body {
 }
 
 .header-item-bgd {	
-	margin: 15px;
+	margin: 10px;
+	background-color: red;
+
+
 }
 
 .header-item-bgd h4 {
@@ -275,21 +275,22 @@ body {
 	margin: 0.5rem;
 	font-size: 27px;
 	text-shadow: 1px 0 0 red;
-	letter-spacing: 2px;
 	margin: 0;
 	line-height: 0;
 	animation: glitch1 2.5s infinite;
+}	
 
-}
 
 .header-item-bgd h4:nth-child(2) {
 	color: #67f3da;
 	animation: glitch2 2.5s infinite;
+	background-color: red;
 }
 
 .header-item-bgd h4:nth-child(3) {
 	color: #f16f6f;
 	animation: glitch3 2.5s infinite;
+	background-color: red;
 }
 
 
@@ -461,13 +462,17 @@ body {
 
 
 .header-item-cyber p {
-	font-family: 'Press Start 2P', cursive;
+	font-family: Play, sans-serif;
+	text-transform: uppercase;
 	color: #00ffff;
-	font-size: 10px;
+	font-size: 13px;
 	margin: 0 auto;
-	line-height: 1.60;
-	letter-spacing: 2px;
+	line-height: 1.20;
 	text-shadow: -1px 0 0 #0000ff;	
+}
+
+.header-item-cyber p::selection {
+	background: #fff;
 }
 
 
@@ -617,24 +622,24 @@ opacity: 1;
 }
 
 .scroller {
+	display: flex;
 	flex: 1;
 	overflow: hidden;
-
 }
 
-.items {
+/*.items {
 	list-style-type: none; 
 	white-space: nowrap;
 	transition: transform 1s ease-in-out;
 	padding: 0;
 	margin: 0;
 
-}
+}*/
 
 .item {
-	display: inline-block;
-	width: 105%;
-	height: 700px;
+	display: flex;
+	/*width: 105%;*/
+	/*height: 700px;*/
 	
 
 	/*background-size: cover;*/
@@ -707,8 +712,11 @@ opacity: 1;
 .main-header {
 	display: flex;
 	justify-content: center;
-	margin: 15px 0;
-	background-color: red;
+	margin: 15px 0;	
+}
+
+.main-header h2::selection {
+  background: #000;
 }
 
 .main-header h2 {
@@ -717,6 +725,8 @@ opacity: 1;
 	font-weight: 400;
 	color: #fff;
 	text-shadow: 1px 0 0 #000;
+	background-color: red;
+	padding: 15px 25px;
 }
 
 .main-block {
@@ -790,6 +800,10 @@ opacity: 1;
 	text-transform: uppercase;
 }
 
+.block-text h2::selection {
+	background: red;
+}
+
 .block-text p {
 	font-family: Play, sans-serif;
 	font-weight: 400;
@@ -798,20 +812,27 @@ opacity: 1;
 	text-shadow: .5px 0 0 #fff;
 }
 
+.block-text p::selection {
+	background: red;
+}
+
 
 /*END MAIN*/
 
 
 .wrap-about {
 	background-color: red;
-	height: 720px;
+	height: 750px;
 	padding: 20px;
 }
 
 .header-about {
 	display: flex;
 	justify-content: center;
-	background-color: #000
+}
+
+.header-about h2::selection {
+  background: red;
 }
 
 .header-about h2 {
@@ -821,6 +842,7 @@ opacity: 1;
 	font-weight: 400;
 	color: #fff;
 	background-color: #000;
+	padding: 15px 25px;
 }
 
 .about {	
@@ -840,9 +862,8 @@ opacity: 1;
 .member-third {
 	margin: 30px 30px;
 	width: 310px;
-	height: 446px;
-	border: 1px solid #000;
-
+	height: 445px;
+	border: 1px solid #fff;
 }
 
 .member-first h2,
@@ -856,9 +877,18 @@ opacity: 1;
 	padding: 20px 0; 
 	background: url(../img/0055ad64-1.png) repeat;
 	opacity: .85
+}
 
+.school-member h2::selection {
+	background: #000;
+}
 
+.school-member h4::selection {
+	background: red;
+}
 
+.school-member p::selection {
+	background: #00ffff;
 }
 
 .member-first h4, 
@@ -916,25 +946,25 @@ opacity: 1;
 
 .wrap-price {
 	background: #000;
-	height: 750px;
+	min-height: 600px;
 	padding: 20px;
 }
 
 .price {
 	display: flex;
     justify-content: center;
-    margin: 15px 0;
-    background-color: red;
-
 }
-
+.price h2::selection {
+  background: #000;
+}
 .price h2 {
 	font-family: 'Press Start 2P', cursive;
     font-size: 18px;
-    letter-spacing: ;
     font-weight: 400;
     color: #fff;
     text-shadow: 1px 0 0 #000;
+    padding: 15px 25px;
+    background-color: red;
 }
 
 .price p{
@@ -962,23 +992,39 @@ opacity: 1;
 	justify-content: space-between;
 	align-items: center;
 	transition: 0.3s ease-in-out;
-	
 }
 
+.price-tag h4::selection {
+	background: red;
+}
+
+.price-tag span::selection {
+	background: #00ffff;
+}
+
+.price-tag li::selection {
+	background: red;
+}
 .price-tag span {
-	font-size: 1.4rem;
+	font-size: 25px;
 	text-transform: uppercase;
 	margin: 1rem auto .5rem;
+	color: #fff;
+	font-weight: 700;
+	font-family: Play, sans-serif;
+	padding: 5px 10px;
+	background-color: red;
+	text-shadow: 1px 0 0 #000;
 }
 
 .price-tag h4 {
 	font-family: Play, sans-serif;
-	font-size: 2rem;
+	font-size: 20px;
 	font-weight: 500;
 	color: #67f3da;
 	border: 1px solid #67f3da;
 	box-shadow: 5px 5px red;
-	padding: 15px 10px;
+	padding: 10px 10px;
 	margin: 1.5rem auto;
 }
 
@@ -992,20 +1038,43 @@ opacity: 1;
 	margin-right: 0.1rem;
 }
 
-.price-tag p {
+.price-tag ul {
 	font-family: Play, sans-serif;
 	font-size: 17px;
 	color: #00ffff;
-	text-align: justify;
+	text-align: center;
+	/*padding: 0 15px 20px 0;*/
+}
+
+.price-tag li {
+	text-align: left;
 }
 
 .price-tag img {
 	padding: .8rem;
 	margin: 0.5rem;
 	border: 1px solid #00ffff;
-	box-shadow: 5px 5px red;
+	box-shadow: 5px 5px red;	
+	width: 100px;
+	height: 100px;
 	
 }
+.price-tag .new {
+	background: url(../img/block/half-battery.svg) no-repeat center;
+	background-size: 30px;
+}
+
+.price-tag .mid {
+	background: url(../img/block/image2vector.svg) no-repeat center;
+	background-size: 40px;
+}
+
+
+.price-tag .pro {
+	background: url(../img/block/fully-charged.svg) no-repeat center;
+	background-size: 50px;
+}
+
 
 .price-btn {
 	padding: 1rem 2rem;
@@ -1039,21 +1108,32 @@ opacity: 1;
 /*END REGISTER*/
 
 .footer {
-	background-color: #000219;
+	background-color: #000;
 	height: 200px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 }
+.main-footer {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+}
 
-.footer h2 {
+.main-footer h2::selection {
+  background: #000;
+}
+
+.main-footer h2 {
+	margin: 0;
 	font-family: 'Press Start 2P', cursive;
-	text-shadow: 1px 0 0 red;
 	font-size: 18px;
 	font-weight: 400;
 	color: #fff;
 	text-shadow: 1px 0 0 #000;
+	background-color: red;
+	padding: 15px 25px;
 }
 
 .contact-us {
@@ -1063,65 +1143,61 @@ opacity: 1;
 }
 
 .social-items-vk,
-.social-items-vkfs,
 .social-items-in,
-.social-items-infs,
 .social-items-you {
 	display: flex;
 	justify-content: center;
 	align-items: center;	
-	height: 35px;
-	width: 35px;	
-	border: 1px solid #fff;;
+	height: 50px;
+	width: 50px;	
 	margin: 0 10px 20px;
 	cursor: pointer;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	padding: 5px 5px;
+	border: 1px solid #000;
 }
 
 .social-items-vk:hover,
-.social-items-vkfs:hover,
 .social-items-in:hover,
-.social-items-infs:hover,
-.social-items-you:hover {
-	border: 1px solid red;
-	box-shadow: 2px 2px 0 0 #fff;;
+.social-items-you:hover {	
+	border: 1px solid #00ffff;
 }
 
 .social-items-vk {
-	background: url(../img/social/vk.svg) no-repeat center;
-	-webkit-background-size: 24px;
-	background-size: 24px;: 
+	background: url(../img/social/vk.svg) no-repeat center red;
+	-webkit-background-size: 35px;
+	background-size: 35px;
 }
 
 .social-items-vk:hover {
 	background: url(../img/social/vk-1.svg) no-repeat center;
-	-webkit-background-size: ;
-	background-size: 24px;
-	transition: all 0.3s; 
+	-webkit-background-size: 35px;
+	background-size: 35px;
+	transition: all 0.5s; 
 }
 
 .social-items-in {
-	background: url(../img/social/instagram.svg) no-repeat center;
-	-webkit-background-size: 24px;
-	background-size: 24px;: 
+	background: url(../img/social/instagram.svg) no-repeat center red;
+	-webkit-background-size: 35px;
+	background-size: 35px; 
 }
 
 .social-items-in:hover {
 	background: url(../img/social/instagram-1.svg) no-repeat center;
-	-webkit-background-size: ;
-	background-size: 24px ;
+	-webkit-background-size: 35px;
+	background-size: 35px;
 	transition: all 0.3s; 
 }
 
 .social-items-you {
-	background: url(../img/social/youtube.svg) no-repeat center;
-	-webkit-background-size: 24px;
-	background-size: 24px;: 
+	background: url(../img/social/youtube.svg) no-repeat center red;
+	-webkit-background-size: 35px;
+	background-size: 35px;
 }
 
 .social-items-you:hover {
 	background: url(../img/social/youtube-1.svg) no-repeat center;
-	-webkit-background-size: ;
-	background-size: 24px;
+	-webkit-background-size: 35px;
+	background-size: 35px;
 	transition: all 0.3s;
 }
