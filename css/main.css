@@ -564,13 +564,15 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 /*END HEADER*/
 
 .slider {
-	height: 670px;
+	height: 700px;
 	background-color: #E1B35F;	
+	display: flex;
+	justify-content: center;
 }
 
-.slider iframe {
+/*.slider iframe {
 	pointer-events: none;
-}
+}*/
 
 
 /*END SLIDER*/
