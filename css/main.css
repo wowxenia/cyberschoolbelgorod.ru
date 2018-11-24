@@ -1,5 +1,3 @@
-@import "compass/css3";
-
 #switch {
   display: none;
 }
@@ -836,7 +834,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 .wrap-about {
 	background-color: red;
-	height: 750px;
+	height: 770px;
 	padding: 20px;
 
 }
