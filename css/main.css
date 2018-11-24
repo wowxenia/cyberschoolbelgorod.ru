@@ -11,7 +11,7 @@ body {
 	margin: auto;
 	
 }
-#switch {
+/*#switch {
 	display: none;
 }
 .switch-label {
@@ -113,7 +113,7 @@ body {
 	100% {
 		opacity: 1054259048;
 	}
-}
+}*/
 
 .body-wrap {
 	width: 1200px;
@@ -122,7 +122,6 @@ body {
 	overflow: hidden;
 	margin: auto;
 	border: 1px solid #000;
-
 }
 
 .body-wrap::after {
@@ -565,8 +564,12 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 /*END HEADER*/
 
 .slider {
-	height: 700px;
+	height: 670px;
 	background-color: #E1B35F;	
+}
+
+.slider iframe {
+	pointer-events: none;
 }
 
 
