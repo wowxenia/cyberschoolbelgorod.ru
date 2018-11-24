@@ -573,6 +573,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 .video img {
 	background-size: cover; 
+	background-position: center;
 }
 
 /*END SLIDER*/
