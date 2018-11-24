@@ -571,7 +571,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	justify-content: center;
 }
 
-.video img {
+.slider video img {
 	background-size: cover; 
 	background-position: center;
 }
