@@ -565,14 +565,12 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 .slider {
 	height: 700px;
-	background-color: #E1B35F;	
+	background: url(../img/slider/ffwfwfwf.png) center;
+	background-size: cover; 
 	display: flex;
 	justify-content: center;
 }
 
-/*.slider iframe {
-	pointer-events: none;
-}*/
 
 
 /*END SLIDER*/
