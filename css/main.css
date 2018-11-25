@@ -1189,6 +1189,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
  	text-align: justify;
  	font-size: 12px!important;
  	line-height: 1.2;
+ 	font-family: Play, sans-serif;
  }
 
  .wdgMoyklass-group {
@@ -1205,19 +1206,28 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	display: none!important;
 
 }
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > div.wdgMoyklass-group.row > div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs {
 	display: none;
 }
 .wdgMoyklass-price_comment {
 	display: none;
 }
 
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > div.wdgMoyklass-group.row > div:nth-child(3) > span {
-	color: #00ffff!important;
-	border-bottom: 1px solid #00ffff;
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div:nth-child(3) > 
+span {
+	color: red!important;
+	border-bottom: 1px solid red;
 	padding-bottom: 2px;
+	font-weight: 700;
+	font-family: Play, sans-serif;
 }
- #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX.WdgMoyklassContent .wdgMoyklass-btn, #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXModal.WdgMoyklassModal .wdgMoyklass-btn {
+ #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX.WdgMoyklassContent .wdgMoyklass-btn,
+ #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXModal.WdgMoyklassModal .wdgMoyklass-btn {
     background-color: red!important;
     border-radius: 0px!important;
     color: #fff!important;
@@ -1227,11 +1237,15 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     border: 1px solid #fff;
    }
 
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > div.wdgMoyklass-group.row > div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between!important;
 	flex-direction: column;
 	margin: 35px 0 20px 0!important;
+	padding: 0;
 }
 
 .wdgMoyklass-scheduleLessonsMini-item {
@@ -1240,7 +1254,8 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	font-family: 'Play', sans-serif;
 }
 
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
+div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item {
 	display: none!important;
 }
 
