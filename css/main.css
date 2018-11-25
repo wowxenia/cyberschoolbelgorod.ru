@@ -795,8 +795,13 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	font-size: 14px;
 	padding: 0 20px;
 	font-family: Play, sans-serif;
-	/*text-shadow: .2px 0 0 #fff;*/
-	
+	/*text-shadow: .2px 0 0 #fff;*/	
+}
+
+.highlite {
+	color: #fff;
+	font-weight: 700;
+	background: none;
 }
 
 .img-name {
@@ -1226,7 +1231,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	margin: 20px 0 10px!important;
+	margin: 35px 0 20px 0!important;
 }
 
 .wdgMoyklass-scheduleLessonsMini-item {
