@@ -565,13 +565,15 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 .slider {
 	height: 700px;
-	background: url(../img/slider/ffwfwfwf.png) center;
 	background-size: cover; 
 	display: flex;
 	justify-content: center;
 }
 
-
+.slider video img {
+	background-size: cover; 
+	background-position: center;
+}
 
 /*END SLIDER*/
 
@@ -993,9 +995,9 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	text-align: left;
 }
 
-.price-tag .new,
-.price-tag .mid,
-.price-tag .pro
+.price-tag .test
+/*.price-tag .mid,
+.price-tag .pro*/
 {
 	padding: .8rem;
 	margin: 0.5rem;
@@ -1003,14 +1005,130 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	box-shadow: 5px 5px red;	
 	width: 100px;
 	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	
 }
-.new {
+/*.new {
 	background: url(../img/block/half-battery.svg) no-repeat center;
 	background-size: 30px;
+}*/
+
+.new,
+.mid,
+.pro
+ {
+	width: 55px;
+	height: 25px;
+	border: 1px solid #00ffff;
+	position: relative;
+	margin: auto;
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+.new {
+	margin: 24px auto;
+}
+.new:hover:before {
+	animation-duration: .1.15s;
+		-o-animation-duration: .1.15s;
+		-ms-animation-duration: .1.15s;
+		-webkit-animation-duration: .1.15s;
+		-moz-animation-duration: .1.15s;
+}
+.new:before, .new:after,
+.mid:before, .mid:after,
+.pro:before, .pro:after {
+	content: "";
+	display: block;
+}
+.new:before {
+	position: relative;
+	height: 19px;
+    width: 20px;
+	margin: 2px;
+	background: repeating-linear-gradient(-45deg, #00ffff, #000 3%, #00ffff 3%, #00ffff 25%);
+	background-size: 44px 44px;
+	animation: new-charge 0.86s infinite linear;
+		-o-animation: new-charge 0.86s infinite linear;
+		-ms-animation: new-charge 0.86s infinite linear;
+		-webkit-animation: new-charge 0.86s infinite linear;
+		-moz-animation: new-charge 0.86s infinite linear;
 }
 
-.mid {
+.mid:before {
+	position: relative;
+	height: 19px;
+    width: 35px;
+	margin: 2px;
+	background: repeating-linear-gradient(-45deg, #00ffff, #000 3%, #00ffff 3%, #00ffff 25%);
+	background-size: 44px 44px;
+	animation: new-charge 0.86s infinite linear;
+		-o-animation: new-charge 0.86s infinite linear;
+		-ms-animation: new-charge 0.86s infinite linear;
+		-webkit-animation: new-charge 0.86s infinite linear;
+		-moz-animation: new-charge 0.86s infinite linear;
+}
+.pro:before {
+	position: relative;
+	height: 19px;
+    width: 49px;
+	margin: 2px;
+	background: repeating-linear-gradient(-45deg, #00ffff, #000 3%, #00ffff 3%, #00ffff 25%);
+	background-size: 44px 44px;
+	animation: new-charge 0.86s infinite linear;
+		-o-animation: new-charge 0.86s infinite linear;
+		-ms-animation: new-charge 0.86s infinite linear;
+		-webkit-animation: new-charge 0.86s infinite linear;
+		-moz-animation: new-charge 0.86s infinite linear;
+}
+.new:after,
+.mid:after,
+.pro:after {
+	position: absolute;
+	width: 3px;
+	height: 11px;
+	background: #00ffff;
+	left: 100%;
+	top: 6px;
+}
+
+
+@keyframes new-charge {
+	to {
+		background-position: 5.5em 0;
+	}
+}
+
+@-o-keyframes new-charge {
+	to {
+		background-position: 5.5em 0;
+	}
+}
+
+@-ms-keyframes new-charge {
+	to {
+		background-position: 5.5em 0;
+	}
+}
+
+@-webkit-keyframes new-charge {
+	to {
+		background-position: 5.5em 0;
+	}
+}
+
+@-moz-keyframes new-charge {
+	to {
+		background-position: 5.5em 0;
+	}
+}
+
+/*.mid {
 	background: url(../img/block/image2vector.svg) no-repeat center;
 	background-size: 40px;
 }
@@ -1020,7 +1138,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	background: url(../img/block/fully-charged.svg) no-repeat center;
 	background-size: 50px;
 }
-
+*/
 
 /*END PRICE	*/
 
