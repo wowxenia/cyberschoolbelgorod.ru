@@ -553,17 +553,30 @@ video{
 	width: 1200px;
 	height: 700px;
 }
-/*@media only screen and (min-width: 320px) {
+
+@media only screen and (max-width: 600px) {
+	video { 
+       width: 600px;
+       height: 350px;
+    }
+} 
+@media only screen and (min-width: 600px) {
+	video { 
+       width: 1200px;
+       height: 700px;
+    }
+} 
+@media only screen and (max-width: 320px) {
     .slider video { 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
         -webkit-background-size: cover;
         background-size: cover;
     }
-}*/
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	.slider video{ 
+	.slider video { 
        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
        width: 600px;
        height: 350px;
@@ -572,36 +585,37 @@ video{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-	.slider video{ 
-        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-        width: 1200px;
+	.slider video { 
+       background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
+       width: 1200px;
        height: 700px;
-    }
     }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.slider video{ 
-        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm) no-repeat;
+        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
+        width: 1200px;
+        height: 700px;;
     }
-} */
+} 
 
 /* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 	.slider video{ 
-        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm) no-repeat;
+        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm);
         
     }
 } 
-*/
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/*@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 .slider video{ 
-        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm) no-repeat;
+        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm);
     }
  }
-*/
+
 /*END SLIDER*/
 
 
