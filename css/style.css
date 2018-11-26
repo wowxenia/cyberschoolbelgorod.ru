@@ -1,6 +1,5 @@
 .WdgMoyklassContent {
 	padding: 0!important;
-
 }
 
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX {
@@ -177,16 +176,20 @@ margin-left: 5px!important;
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXModal > 
 div > div > div > 
 div.wdgMoyklass-h1.text-center.p-b-lg {
-	text-transform: uppercase;
-	letter-spacing: 1;
-	font-weight: 700!important;
-	color: #00ffff;
+	
 	background: #000!important;
 	width: 200px;
 	height: 40px;
 	margin: 0 auto 15px;
-	padding: 4px 0 0 0;
+	padding: 5px 0 0 0;
+	font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 0 0 red;
+    font-size: 18px;
+    color: #fff;
+    -webkit-animation: filter-animation-d .1s infinite;
 }
+
+
 
 .wdgMoyklass-h3 {
 	text-transform: uppercase;
