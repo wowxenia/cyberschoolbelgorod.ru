@@ -549,11 +549,6 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	background-position: center;
 }
 
-video{
-	width: 1200px;
-	height: 700px;
-}
-
 
 @media only screen and (max-width: 320px) {
     .slider video { 
@@ -567,10 +562,10 @@ video{
 @media only screen and (max-width: 600px) {
 	.slider video { 
        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-       width: 600px;
-       height: 350px;
-    }
+       -webkit-background-size: cover;
+        background-size: cover;
 } 
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
