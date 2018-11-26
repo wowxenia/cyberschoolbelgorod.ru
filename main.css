@@ -549,7 +549,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	background-position: center;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
     .slider { 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
         -webkit-background-size: cover;
