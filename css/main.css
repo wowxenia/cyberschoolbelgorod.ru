@@ -531,7 +531,6 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
 nav .start-contact, a:nth-child(5):hover~.animation {
 	width: 120px;
 	left: 460px;
-	/*border: 1px solid #00ffff;*/
 }
 
 /*END HEADER*/
@@ -541,10 +540,6 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	background-size: cover; 
 	display: flex;
 	justify-content: center;
-	/*box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
-   -123px 0 20px -23px #00ffff,
-   123px 0 20px -23px #00ffff,
-   0 0 40px rgba(0, 0, 0, .1) inset;*/
    box-shadow: 0px 0px 500px 50px #00ffff38;
 }
 
@@ -861,8 +856,8 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 .wrap-price {
 	background: #000;
-	min-height: 600px;
-	padding: 20px;
+	min-height: 580px;
+	padding: 10px;
 }
 
 .price {
@@ -1136,154 +1131,14 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 
 .register {
-	width: 700px;
-	min-height: 400px;
+	width: 750px;
+	height: 600px;
 	background-color: red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: red;
 }
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX {
-	background: red!important;
-	width: 900px!important;
-	padding: 0;
-}
-
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > div.wdgMoyklass-h1.p-b-lg {
-	margin: 15px auto 0;
-	width: 350px;
-	display: flex;
-	justify-content: center;
-	font-family: 'Press Start 2P', cursive;
-    text-shadow: 1px 0 0 red;
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff;
-    background-color: #000;
-    padding: 10px 15px!important;
-    -webkit-animation: filter-animation-d .1s infinite;
-}
-
-.wdgMoyklass-course > div.wdgMoyklass-h2.p-y-md.wdgMoyklass-course-title{
-	text-align: center;
-    background: #fff;
-    padding: 5px 0;
-    font-family: 'Play', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0.5px 0 0 red;
-    margin-top: 10px;
-    font-weight: 700;
-    width: 100px;
-    margin: 15px auto;
-}
-
-.wdgMoyklass-colorDefault {
-    color: #00ffff!important;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: 1px solid #00ffff;
-    padding: 5px 5px;
-    margin: 15px auto!important;
-}
-
-.wdgMoyklass-course > div.wdgMoyklass-group.row {
- 	background: #000!important;
- 	border: 1px solid #00ffff;
- 	color: #00ffff;
- 	width: 700px;
- 	margin: 15px auto!important;
- 	text-align: justify;
- 	font-size: 12px!important;
- 	line-height: 1.2;
- 	font-family: Play, sans-serif;
- }
-
- .wdgMoyklass-group {
- 	display: flex;
- 	justify-content: space-between!important;
- 	align-items: center!important;
- }
- .wdgMoyklass-font-light {
- 	margin: 15px auto;
-
- }
-
-.wdgMoyklass-scheduleLessonsMini > span {
-	display: none!important;
-
-}
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
-div:nth-child(1) > div.wdgMoyklass-group.row > 
-div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs {
-	display: none;
-}
-.wdgMoyklass-price_comment {
-	display: none;
-}
-
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
-div:nth-child(1) > 
-div.wdgMoyklass-group.row > 
-div:nth-child(3) > 
-span {
-	color: red!important;
-	border-bottom: 1px solid red;
-	padding-bottom: 2px;
-	font-weight: 700;
-	font-family: Play, sans-serif;
-}
- #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX.WdgMoyklassContent .wdgMoyklass-btn,
- #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXModal.WdgMoyklassModal .wdgMoyklass-btn {
-    background-color: red!important;
-    border-radius: 0px!important;
-    color: #fff!important;
-    font-family: 'Play', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0.5px 0 0 #000;
-    border: 1px solid #fff;
-   }
-
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
-div:nth-child(1) > 
-div.wdgMoyklass-group.row > 
-div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
-	display: flex;
-	justify-content: space-between!important;
-	flex-direction: column;
-	margin: 35px 0 20px 0!important;
-	padding: 0;
-}
-
-.wdgMoyklass-scheduleLessonsMini-item {
-	background-color: #00ffff!important;
-	color: #000!important;
-	font-family: 'Play', sans-serif;
-}
-
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
-div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item {
-	display: none!important;
-}
-
-.wdgMoyklass-btn {
-margin-left: 5px!important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*END REGISTER*/
