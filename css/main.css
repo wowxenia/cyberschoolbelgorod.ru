@@ -575,7 +575,7 @@ video{
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	.slider video { 
        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
        width: 600px;
@@ -584,7 +584,7 @@ video{
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
 	.slider video { 
        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
        width: 1200px;
@@ -593,7 +593,7 @@ video{
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
 	.slider video{ 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
         width: 1200px;
