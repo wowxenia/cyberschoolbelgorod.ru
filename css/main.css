@@ -556,26 +556,26 @@ video{
 
 @media (max-width: 600px) {
 	.slider video { 
-       width: 1200px;
-       height: 700px;
+       width: 600px;
+       height: 350px;
     }
 } 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 	.slider video { 
        width: 1200px;
        height: 700px;
     }
 } 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     .slider video { 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-        width: 1200px;
-       height: 700px;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.slider video { 
        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
        width: 600px;
@@ -584,7 +584,7 @@ video{
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 	.slider video { 
        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
        width: 1200px;
@@ -593,7 +593,7 @@ video{
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.slider video{ 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
         width: 1200px;
@@ -604,7 +604,7 @@ video{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	.slider video{ 
-        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm);
+        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm) no-repeat;
         
     }
 } 
