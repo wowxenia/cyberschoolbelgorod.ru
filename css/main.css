@@ -564,9 +564,9 @@ video{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.slider video{ 
-        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-       width: 1200px;
-       height: 700px;
+       background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
+       width: 600px;
+       height: 350px;
     }
 } 
 
