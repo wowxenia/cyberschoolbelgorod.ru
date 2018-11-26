@@ -3,11 +3,11 @@ body {
 	margin: 0;
 	box-sizing: border-box;	
 	background: url(../img/bg-2.png);
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
 }
 
 @keyframes fadein {
@@ -1302,15 +1302,15 @@ video {
     @media only screen and (max-device-width:480px){
        .slider video {
 		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
-		/*-webkit-background-size: cover;
-		background-size: cover;*/
+		-webkit-background-size: cover;
+		background-size: cover;
 	}
     }
     @media only screen and (max-device-width:768px){
        .slider video {
 		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
-		/*-webkit-background-size: cover;
-		background-size: cover;*/
+		-webkit-background-size: cover;
+		background-size: cover;
 	}
     }
     /* different techniques for iPad screening */
