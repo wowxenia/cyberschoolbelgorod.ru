@@ -543,62 +543,11 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     box-shadow: 0px 0px 500px 50px #00ffff38;
 }
 
-
-.slider video img {
-	background-size: cover; 
-	background-position: center;
+video {
+	width: 1200px;
+	height: 700px;
 }
 
-
-/*@media only screen and (max-width: 320px) {
-    .slider video { 
-        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
-}*/
-
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
-	.slider video { 
-       background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-       -webkit-background-size: cover;
-        background-size: cover;
-} 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media screen and (min-width: 600px) {
-	.slider video { 
-       background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-       -webkit-background-size: cover;
-        background-size: cover;
-    }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-	.slider video{ 
-        background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (max-width: 992px) {
-	.slider video{ 
-        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm);
-        
-    }
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-.slider video{ 
-        background: url(../img/mosh/1MOSHED-2018-11-26-3-14-37.webm);
-    }
- }
 
 /*END SLIDER*/
 
@@ -1302,3 +1251,33 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	background-size: 35px;
 	transition: all 0.3s;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.slider video {
+		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.slider video {
+		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.slider video {
+		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+} 
+
