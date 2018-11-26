@@ -1255,29 +1255,36 @@ video {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-	.slider video {
+
+
+@media only screen and (min-width:960px){
+        /* styles for browsers larger than 960px; */
+    }
+    @media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width:2000px){
+        /* for sumo sized (mac) screens */
+    }
+    @media only screen and (max-device-width:480px){
+       .slider video {
 		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
 		-webkit-background-size: cover;
 		background-size: cover;
 	}
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-	.slider video {
+    }
+    @media only screen and (max-device-width:768px){
+       .slider video {
 		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
 		-webkit-background-size: cover;
 		background-size: cover;
 	}
-} 
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-	.slider video {
-		background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif);
-		-webkit-background-size: cover;
-		background-size: cover;
-	}
-} 
-
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
