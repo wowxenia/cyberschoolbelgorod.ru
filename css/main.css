@@ -556,8 +556,8 @@ video{
 
 @media (max-width: 600px) {
 	.slider video { 
-       width: 600px;
-       height: 350px;
+       width: 1200px;
+       height: 700px;
     }
 } 
 @media (min-width: 600px) {
