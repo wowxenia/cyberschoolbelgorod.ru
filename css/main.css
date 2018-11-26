@@ -565,8 +565,8 @@ video{
 @media only screen and (max-width: 600px) {
 	.slider video{ 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
+       width: 1200px;
+       height: 700px;
     }
 } 
 
@@ -574,8 +574,9 @@ video{
 @media only screen and (min-width: 600px) {
 	.slider video{ 
         background: url(../img/mosh/MOSHED-2018-11-26-17-10-8.gif) no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
+        width: 1200px;
+       height: 700px;
+    }
     }
 } 
 
