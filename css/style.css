@@ -158,7 +158,7 @@ div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.
 }
 
 .wdgMoyklassForm-lessons-selector {
-	/*overflow: hidden!important;*/
+	overflow: hidden!important;
 	border: 1px solid #000!important;
 	
 }
