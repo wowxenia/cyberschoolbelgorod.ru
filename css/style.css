@@ -247,6 +247,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 	color: #fff!important;
 	text-align: center;
 }
+
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormphone,
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-1,
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm18 {
@@ -301,8 +302,6 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 	text-align: right;
 }
 
-
-
 .WdgMoyklassModal::after {
 	content: " ";
 	display: block;
@@ -334,6 +333,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 #switch:checked ~ .WdgMoyklassModal::after {
 	animation: flicker 0.15s infinite;
 } 
+
 @keyframes turn-on {
 	0% {
 		transform: scale(1, 0.8) translate3d(0, 0, 0);

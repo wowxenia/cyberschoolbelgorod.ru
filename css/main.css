@@ -466,7 +466,7 @@ video {
 .wrap-main {		
 	margin: auto;
 	padding: 20px;
-	background: #000;
+	background: url(../img/bg-2.png);
 }
 
 .main-header {
@@ -761,7 +761,7 @@ video {
 
 
 .wrap-price {
-	background: #000;
+	background: url(../img/bg-2.png);
 	min-height: 580px;
 	padding: 10px;
 }
@@ -1018,7 +1018,7 @@ video {
 /*END PRICE	*/
 
 .wrap-register {
-    background: #000;
+    background: url(../img/bg-2.png);
 }
 
 /*.register {
@@ -1034,7 +1034,7 @@ video {
 /*END REGISTER*/
 
 .footer {
-	background-color: #000;
+	background-color: url(../img/bg-2.png);
 	height: 200px;
 	display: flex;
 	justify-content: space-around;
