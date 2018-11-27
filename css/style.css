@@ -1,11 +1,12 @@
 .WdgMoyklassContent {
-	padding: 0!important;
+	/*padding: 0!important;*/
+	margin: auto;
+	width: 750px;
+	background: red!important;
+
 }
 
-#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX {
-	background: red!important;
-	/*width: 900px!important;*/
-	padding: 0;
+#WdgMoyklass4116 {
 }
 
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > div.wdgMoyklass-h1.p-b-lg {
@@ -13,58 +14,53 @@
 	width: 350px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	font-family: 'Press Start 2P', cursive;
-    text-shadow: 1px 0 0 red;
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff;
-    background-color: #000;
-    padding: 10px 15px!important;
-    text-transform: unset!important;
-    -webkit-animation: filter-animation-d .1s infinite;
+	text-shadow: 1px 0 0 red;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #000;
+	padding: 10px 15px!important;
+	-webkit-animation: filter-animation-d .1s infinite;
 }
 
 .wdgMoyklass-course > div.wdgMoyklass-h2.p-y-md.wdgMoyklass-course-title{
 	text-align: center;
-    background: #fff;
-    padding: 5px 0;
-    font-family: 'Play', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0.5px 0 0 red;
-    margin-top: 10px;
-    font-weight: 700;
-    width: 100px;
-    margin: 15px auto;
+	background: #fff;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0 0 red;
+	font-weight: 700;
+	width: 100px;
+	margin: 15px auto;
 }
 
 .wdgMoyklass-colorDefault {
-    color: #00ffff!important;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: 1px solid #00ffff;
-    padding: 5px 5px;
+	color: #00ffff!important;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 1px solid #00ffff;
+	padding: 5px 5px;
 }
 
 .wdgMoyklass-course > div.wdgMoyklass-group.row {
- 	background: #000!important;
- 	border: 1px solid #00ffff;
- 	color: #00ffff;
- 	width: 700px;
- 	margin: 15px auto!important;
- 	text-align: justify;
- 	font-size: 12px!important;
- 	line-height: 1.2;
- 	font-family: Play, sans-serif;
- }
+	background: #000!important;
+	border: 1px solid #00ffff;
+	color: #00ffff;
+	width: 700px;
+	margin: 15px auto!important;
+	text-align: justify;
+	font-size: 12px!important;
+	font-family: Play, sans-serif;
+}
 
- .wdgMoyklass-group {
- 	display: flex;
- 	justify-content: space-between!important;
- 	align-items: center!important;
- }
- .wdgMoyklass-font-light {
- 	margin: 15px auto;
- }
+.wdgMoyklass-group {
+	display: flex;
+	justify-content: space-between!important;
+	align-items: center!important;
+	margin: auto 0!important;
+}
 
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
 div:nth-child(1) > 
@@ -83,23 +79,23 @@ span {
 	font-family: Play, sans-serif;
 }
 
- #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > 
- div.wdgMoyklass-group.row > 
- div.col-md-2.col-sm-3.col-xs-12.m-y-lg > 
- label,
- #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
- div:nth-child(2) > 
- div.wdgMoyklass-group.row > 
- div.col-md-2.col-sm-3.col-xs-12.m-y-lg > 
- label{
- 	background-color: red!important;
-    border-radius: 0px!important;
-    color: #fff!important;
-    font-family: 'Play', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0.5px 0 0 #000;
-    border: 1px solid #fff;
- }  
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > 
+label,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > 
+label{
+	background-color: red!important;
+	border-radius: 0px!important;
+	color: #fff!important;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0 0 #000;
+	border: 1px solid #fff;
+}  
 
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
 div:nth-child(1) > 
@@ -136,7 +132,7 @@ div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.
 }
 
 .wdgMoyklass-btn {
-margin-left: 5px!important;
+	margin-left: 5px!important;
 }
 
 
@@ -151,6 +147,10 @@ margin-left: 5px!important;
 	font-family: Play, sans-serif;
 	border: 1px solid red;
 	box-shadow: 60px 60px 400px #000;
+	width: 598px;
+	height: 700px;
+	margin: auto;
+	background-color: ;
 }
 .WdgMoyklassclose {
 	color: #000!important;
@@ -158,11 +158,12 @@ margin-left: 5px!important;
 }
 
 .wdgMoyklassForm-lessons-selector {
-	overflow: hidden!important;
-	width: 548px!important;
-	height: 170px!important;
+	/*overflow: hidden!important;*/
 	border: 1px solid #000!important;
-	margin-bottom: 20px!important;
+	
+}
+.WdgMoyklassModalItem-content {
+	background: none!important;
 }
 
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormname,
@@ -197,15 +198,14 @@ div.wdgMoyklass-h1.text-center.p-b-lg {
 	margin: 0 auto 15px;
 	padding: 5px 0 0 0;
 	color: #fff;
-    text-shadow: 1px 0 0 #000;
-    font-family: Press Start 2P, cursive;
-    -webkit-animation: filter-animation-d .1s infinite;
+	text-shadow: 1px 0 0 #000;
+	font-family: Press Start 2P, cursive;
+	-webkit-animation: filter-animation-d .1s infinite;
 }
 
 .wdgMoyklass-h3 {
 	text-transform: uppercase;
 	font-weight: 700!important;
-	/*text-shadow: .1px 0 0 #fff;*/
 	color: #00ffff;
 }
 .wdgMoyklass-form-PriceComment {
@@ -255,6 +255,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 	color: #000;
 	font-weight: 400!important;
 }
+
 /*CALENDAR*/
 
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXhello-week {
@@ -307,7 +308,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 .WdgMoyklassModal::after {
 	content: " ";
 	display: block;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -321,7 +322,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 .WdgMoyklassModal::before {
 	content: " ";
 	display: block;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -387,3 +388,37 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 		filter: brightness(50);
 	}
 }
+
+@media only screen and (max-device-width:758px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > 
+	div.wdgMoyklass-group.row >
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs {
+		display: none!important;
+	}
+}
+@media only screen and (max-device-width:758px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > div.wdgMoyklass-group.row > div:nth-child(4),
+	<div class="col-md-2 col-sm-3 col-xs-12 m-y-lg"><label for="scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormScheduleInput_18715_36112" class="wdgMoyklass-btn wdgMoyklass-h3 col-sm-12 col-xs-7">Запись<div class="hide"><input id="scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormScheduleInput_18715_36112" type="radio" name="values" value="{&quot;courseId&quot;:&quot;18715&quot;, &quot;classId&quot;:&quot;36112&quot;}" onclick="WdgMoyklass['scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX'].openWidgetModal();"></div></label></div> {
+		width: 400px!important;
+		text-align: center;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-device-width:758px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
+	div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(2) > 
+	div.wdgMoyklass-group.row > div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+	.wdgMoyklass-price_comment,
+	.wdgMoyklass-scheduleLessonsMini > span {
+		display: none!important;
+	}
+}
+
+
