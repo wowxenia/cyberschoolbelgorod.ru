@@ -744,7 +744,7 @@ video {
 }
 
 .member-second .img-name {
-	background: url(../img/teachers/2lvl.png);
+	background: url(../img/teachers/2lvl.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	opacity: .85;
@@ -1018,7 +1018,6 @@ video {
 /*END PRICE	*/
 
 .wrap-register {
-	/*margin: auto;*/
     background: #000;
 }
 

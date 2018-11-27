@@ -140,21 +140,21 @@ div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.
 
 
 /*MODAL*/
-
+.WdgMoyklassModalItem-dialog {
+	height: 700px;
+	width: 600px;
+}
 .WdgMoyklassModalItem-body {
-	background: #000;
+	background: #000!important;
 	color: #000!important;
 	font-family: Play, sans-serif;
 	border: 1px solid red;
-	box-shadow: 60px 60px 400px #000;
-	width: 598px;
-	height: 700px;
+	box-shadow: 60px 60px 400px #000;	
 	margin: auto;
-	background-color: ;
 }
 .WdgMoyklassclose {
-	color: #000!important;
-	opacity: 1;
+	color: red!important;
+	opacity: 1!important;
 }
 
 .wdgMoyklassForm-lessons-selector {
@@ -207,6 +207,7 @@ div.wdgMoyklass-h1.text-center.p-b-lg {
 	text-transform: uppercase;
 	font-weight: 700!important;
 	color: #00ffff;
+	margin-bottom: 5px;
 }
 .wdgMoyklass-form-PriceComment {
 	color: #00ffff!important;
@@ -308,7 +309,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 .WdgMoyklassModal::after {
 	content: " ";
 	display: block;
-	/*position: absolute;*/
+	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -322,7 +323,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 .WdgMoyklassModal::before {
 	content: " ";
 	display: block;
-	/*position: absolute;*/
+	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -406,7 +407,7 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 	}
 }
 
-@media only screen and (max-device-width:758px){
+@media only screen and (max-device-width:800px){
 	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
 	div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item,
 	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
@@ -416,9 +417,60 @@ div.fs12.lessonPlacesLeft.colorTextSchema {
 	div:nth-child(1) > div.wdgMoyklass-group.row > 
 	div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
 	.wdgMoyklass-price_comment,
-	.wdgMoyklass-scheduleLessonsMini > span {
+	.wdgMoyklass-scheduleLessonsMini > span,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(2) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs {
 		display: none!important;
 	}
 }
 
+/*4000*/
+@media only screen and (max-device-width:800px){
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > div.wdgMoyklass-group.row > 
+div:nth-child(4) > span,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > div.wdgMoyklass-group.row > 
+div:nth-child(4) > span {
+	/*text-align: center;*/
+	color: red!important;
+	border-bottom: 1px solid red;
+	padding-bottom: 2px;
+	font-weight: 700;
+	font-family: Play, sans-serif;
+	width: 350px;
+	/*margin-left: 50px;*/
+}
+}
 
+/*blue text*/
+@media only screen and (max-device-width:800px){
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
+	/*width: 800px!important;*/
+	margin-right: 40px!important;
+}
+}
+
+/*button*/
+@media only screen and (max-device-width:800px) {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > label,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > label {
+	/*margin-left: 50px!important;*/
+}
+}
