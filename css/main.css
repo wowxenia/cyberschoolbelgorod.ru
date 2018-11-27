@@ -27,7 +27,6 @@ body {
 	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
 	position: relative;
 	margin: auto;
-	border: 1px solid #000;
 }
 
 .body-wrap::after {
@@ -450,10 +449,10 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     box-shadow: 0px 0px 500px 50px #00ffff38;
 }
 
-video {
+/*video {
 	width: 1200px;
 	height: 700px;
-}
+}*/
 
 
 /*END SLIDER*/
@@ -463,8 +462,7 @@ video {
 	width: 600px;
 }
 
-.wrap-main {		
-	margin: auto;
+.wrap-main {
 	padding: 20px;
 	background: url(../img/bg-2.png);
 }
@@ -763,7 +761,7 @@ video {
 .wrap-price {
 	background: url(../img/bg-2.png);
 	min-height: 580px;
-	padding: 10px;
+	padding: 20px;
 }
 
 .price {
@@ -1019,6 +1017,7 @@ video {
 
 .wrap-register {
     background: url(../img/bg-2.png);
+    padding: 20px;
 }
 
 /*.register {
