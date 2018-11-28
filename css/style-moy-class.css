@@ -559,7 +559,7 @@ div:nth-child(1) > div.wdgMoyklass-group.row > div:nth-child(4) {
 /*modal 768*/
 @media only screen and (max-device-width:768px){
 .WdgMoyklassModalItem-dialog {
-	height: 900px!important;
+	height: 100vh!important;
 	width: 546px!important;
 	margin: auto!important;
 }
@@ -567,14 +567,20 @@ div:nth-child(1) > div.wdgMoyklass-group.row > div:nth-child(4) {
 
 @media only screen and (max-device-width:768px){
 .WdgMoyklassModalItem-body {
-	position: relative!important;
+	position: fixed!important;
 	background: #000!important;
 	color: #000!important;
 	font-family: Play, sans-serif;
 	border: 1px solid red;
 	box-shadow: 60px 60px 400px #000;	
 	margin: auto;
-	height: 900px!important;
-	width: 546px!important;
+	/*height: 900px!important;
+	width: 546px!important;*/
+}
+}
+
+@media only screen and (max-device-width:768px){
+.WdgMoyklassModalItem {
+	
 }
 }
