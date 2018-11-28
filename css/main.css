@@ -594,7 +594,7 @@ video {
 .wrap-about {
 	background-color: red;
 	height: 800px;
-	padding: 15px 0;
+	padding: 20px 0;
 }
 
 .header-about {
@@ -757,13 +757,14 @@ video {
 
 .wrap-price {
 	background: url(../img/bg-2.png);
-	min-height: 580px;
+	min-height: 595px;
 	padding: 20px;
 }
 
 .price {
 	display: flex;
 	justify-content: center;
+	margin-top: 15px;
 }
 .price h2::selection {
 	background: #000;
