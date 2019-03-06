@@ -740,8 +740,9 @@ video {
 
 .member-second .img-name {
 	background: url(../img/teachers/2lvl.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: 150%;
+	background-size: 150%;
+	background-position: 60% 35%;
 	opacity: .85;
 }
 
