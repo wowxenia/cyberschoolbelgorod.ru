@@ -1,1 +1,1 @@
-# cyberschool.github.io
+http://cyberschoolbelgorod.ru/
