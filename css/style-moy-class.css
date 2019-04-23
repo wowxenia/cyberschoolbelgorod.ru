@@ -8,6 +8,77 @@
 #WdgMoyklass4116 {
 }
 
+/* NEW */
+
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-h1 {
+	font-weight: 500;
+}
+
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-h3 {
+	width: 200px;
+	height: 45px;
+	border: none;
+}
+
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .WdgMoyklassSchedule-TypeItem.success {
+	display: none;
+}
+.WdgMoyklassContent .WdgMoyklassSchedule-TypeItem:not(:first-child){
+	display: none;
+}
+
+.WdgMoyklassSchedule-submenu.m-t-md.wdgMoyklass-h3 {
+	display: none;
+}
+
+.wdgMoyklass-headColor {
+	font-weight: 600;
+	padding: 4px;
+}
+
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX {
+	color: white;
+	font-family: Play, sans-serif;
+}
+.joinBox {
+	margin-bottom: 10px;
+}
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-group{
+	background-color: #000;
+	margin-bottom: 10px;
+}
+
+.WdgMoyklassSchedule-submenu.m-t-md.wdgMoyklass-h3 {
+	color: rgb(31, 28, 28);
+}
+.WdgMoyklassContent .tabDescriptionSchedule > div {
+	display: none!important;
+}
+
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-btn {
+	background-color: red;
+	border-radius: 0;
+	width: 150px;
+}
+
+.WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-btn:hover {
+	background-color:#000;
+	color: #00ffff;
+	border: 1px solid #00ffff;
+}
+
+/* MODAL NEW */
+
+#SiteWidgetMoyklass14435Modal {
+	background: none!important;
+}
+
+.WdgMoyklassContent .wdgMoyklass-btn.wdgMoyklass-btn-disable input{
+	background-color: red!important;
+}
+
+/* END NEW */
+
 #scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > div.wdgMoyklass-h1.p-b-lg {
 	margin: 15px auto 0;
 	width: 350px;
@@ -41,6 +112,7 @@
 	font-weight: 700;
 	border: 1px solid #00ffff;
 	padding: 5px 5px;
+	margin-top: 15px;
 }
 
 .wdgMoyklass-course > div.wdgMoyklass-group.row {
@@ -136,6 +208,7 @@ div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.
 
 
 /*MODAL*/
+
 .WdgMoyklassModalItem-dialog {
 	height: 700px;
 	width: 600px;
@@ -145,7 +218,7 @@ div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.
 	color: #000!important;
 	font-family: Play, sans-serif;
 	border: 1px solid red;
-	box-shadow: 60px 60px 400px #000;	
+	/* box-shadow: 60px 60px 400px #000;	 */
 	margin: auto;
 }
 .WdgMoyklassclose {
@@ -201,9 +274,11 @@ div.wdgMoyklass-h1.text-center.p-b-lg {
 
 .wdgMoyklass-h3 {
 	text-transform: uppercase;
-	font-weight: 700!important;
-	color: #00ffff;
+	font-weight: 900;
+	color: red;
 	margin-bottom: 5px;
+	background-color: #000;
+	border: none;
 }
 .wdgMoyklass-form-PriceComment {
 	color: #00ffff!important;
@@ -579,8 +654,8 @@ div:nth-child(1) > div.wdgMoyklass-group.row > div:nth-child(4) {
 }
 }
 
-@media only screen and (max-device-width:768px){
-.WdgMoyklassModalItem {
-	
-}
+@media only screen and (min-width: 992px) {
+.WdgMoyklassContent .col-md-2 {
+	width: 25.666667%!important;
+	}
 }
