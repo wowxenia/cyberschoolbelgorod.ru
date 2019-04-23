@@ -44,7 +44,7 @@
 	margin-bottom: 10px;
 }
 .WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-group{
-	background-color: #000;
+	background-color: #000!important;
 	margin-bottom: 10px;
 }
 
@@ -56,15 +56,15 @@
 }
 
 .WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-btn {
-	background-color: red;
+	background-color: red!important;
 	border-radius: 0;
 	width: 150px;
 }
 
 .WdgMoyklassContent.oldInitQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX .wdgMoyklass-btn:hover {
-	background-color:#000;
+	background-color:#000!important;
 	color: #00ffff;
-	border: 1px solid #00ffff;
+	border: 1px solid #00ffff!important;
 }
 
 /* MODAL NEW */
