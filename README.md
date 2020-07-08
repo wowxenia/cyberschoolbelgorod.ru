@@ -1,1 +1,1 @@
-cyberschoolbelgorod.ru
+https://wowxenia.github.io/cyberschoolbelgorod.ru/
